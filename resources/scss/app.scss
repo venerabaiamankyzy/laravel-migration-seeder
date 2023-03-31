@@ -1,9 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
-.jumbotron {
+body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    background-image: url("../img/pexels-pixabay-72594.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-img {
-    max-height: 150px;
+footer {
+    margin-top: auto;
 }
