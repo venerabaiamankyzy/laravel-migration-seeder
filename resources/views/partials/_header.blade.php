@@ -12,9 +12,7 @@
         <li class="nav-item">
           <a class="nav-link @if(Request::route()->getName() == 'train-list') active @endif" href="{{ route('train-list')}}">Train</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
+        
         
           </ul>
         </li>
